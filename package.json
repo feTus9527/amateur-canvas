@@ -1,0 +1,33 @@
+{
+  "name": "amateur-typescript",
+  "version": "1.0.0",
+  "description": "A basic attempt of TypeScript",
+  "private": true,
+  "packageManager": "pnpm@8.15.6",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": {
+    "name": "fetus9527",
+    "email": "snow1013895225@gmail.com",
+    "url": "https://github.com/feTus9527"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/feTus9527/amateur-typescript.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "",
+    "build": "tsc",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "@typescript-eslint/eslint-plugin": "^8.9.0",
+    "@typescript-eslint/parser": "^8.9.0",
+    "eslint": "^8.57.1",
+    "prettier": "^3.3.3",
+    "typescript": "~5.5.0"
+  }
+}
