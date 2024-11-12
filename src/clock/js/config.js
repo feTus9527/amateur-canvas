@@ -1,0 +1,32 @@
+// clock face
+export const CANVAS_SIZE = 500;
+export const BOLD_MARKER_LINE_WIDTH = CANVAS_SIZE / 150;
+export const BOLD_MARKER_LINE_HEIGHT = CANVAS_SIZE / 20;
+export const BOLD_MARKER_LINE_COLOR = "#000";
+export const NORMAL_MARKER_LINE_WIDTH = CANVAS_SIZE / 200;
+export const NORMAL_MARKER_LINE_HEIGHT = CANVAS_SIZE / 25;
+export const NORMAL_MARKER_LINE_COLOR = "#ddd";
+export const CLOCK_NUMBER_MARGIN = CANVAS_SIZE / 10;
+export const CLOCK_NUMBER_SIZE = `${CANVAS_SIZE / 20}px Arial`;
+
+// hour hand
+export const HOUR_HAND_HEIGHT = CANVAS_SIZE / 5;
+export const HOUR_HAND_WIDTH = CANVAS_SIZE / 100;
+export const HOUR_HAND_POINTER = true;
+export const HOUR_HAND_OVERFLOW_HEIGHT = CANVAS_SIZE / 40;
+export const HOUR_HAND_POINTER_CONTROL_X = CANVAS_SIZE / 100;
+export const HOUR_HAND_POINTER_HEIGHT = CANVAS_SIZE / 20;
+
+// minute hand
+export const MINUTE_HAND_HEIGHT = CANVAS_SIZE * 0.3;
+export const MINUTE_HAND_WIDTH = CANVAS_SIZE / 133;
+export const MINUTE_HAND_POINTER = true;
+export const MINUTE_HAND_OVERFLOW_HEIGHT = CANVAS_SIZE / 40;
+export const MINUTE_HAND_POINTER_CONTROL_X = CANVAS_SIZE / 100;
+export const MINUTE_HAND_POINTER_HEIGHT = CANVAS_SIZE / 20;
+
+// second hand
+export const SECOND_HAND_HEIGHT = CANVAS_SIZE * 0.45;
+export const SECOND_HAND_WIDTH = CANVAS_SIZE / 200;
+export const SECOND_HAND_OVERFLOW_HEIGHT = CANVAS_SIZE / 20;
+export const SECOND_HAND_COLOR = "#f00";
