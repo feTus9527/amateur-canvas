@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Sketchpad</title>
+  </head>
+  <body>
+    <div id="app">
+      <div id="sketchpad-toolbar">
+        <button id="line-btn" class="active">line</button>
+        <button id="rect-btn">rect</button>
+        <button id="circle-btn">circle</button>
+        <button id="fill-btn">fill</button>
+        <button id="eraser-btn">eraser</button>
+        <label>
+          <select id="stroke-select">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="4">4</option>
+            <option value="8">8</option>
+          </select>
+        </label>
+        <label>
+          <input id="color-picker" type="color" />
+        </label>
+        <button id="clear-btn">clear</button>
+        <button id="save-btn">save</button>
+      </div>
+    </div>
+    <script src="js/index.js" type="module"></script>
+  </body>
+</html>
